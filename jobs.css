@@ -9,7 +9,7 @@ a {
 }
 
 .title-container {
-    width: 1280px;
+    width: 100vw;
     margin: auto;
     padding-bottom: 20px;
 }
@@ -24,8 +24,16 @@ a {
     margin: 20px 0 20px 0;
 }
 
+@media (max-width:1023px){
+    .title {font-size: 70px;}
+}
+
+@media (max-width:767px){
+    .title {font-size: 60px;}
+}
+
 .image-container {
-    width: 1000px;
+    width: 70vw;
     margin: auto;
 }
 
